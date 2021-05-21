@@ -7,7 +7,7 @@ from sklearn import preprocessing
 import numpy as np
 
 df=pd.read_csv('treina2.txt', names=["x1", "x2", "x3", "x4", "y1", "y2", "y3"])
-df2=pd.read_csv('teste.txt', names=["x1", "x2", "x3", "x4", "y1", "y2", "y3"])
+df2=pd.read_csv('teste2.txt', names=["x1", "x2", "x3", "x4", "y1", "y2", "y3"])
 
 x1,x1t=df['x1'],df2['x1']
 
